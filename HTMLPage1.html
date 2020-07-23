@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body> 
+
+    <script>
+        'use strict';
+        let naming = "";
+        for (let i = 0; i <= 10; i++) {
+
+            if (i == 0) {
+                naming = "-это ноль"; 
+            }
+
+            if (i % 2 == 1) {
+                naming = "-нечетное число";
+            }
+
+            if (i % 2 == 0 & i !== 0) {
+                naming = "-четное число";
+            }
+
+            console.log(i + naming);
+        }
+        
+    </script>
+
+
+</body>
+</html>
